@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="/CSS/lateral-menu.css">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <script src="/JS/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La boutique de l'amitié</title>
+</head>
+
+<body>
+
+    <!-- Barre de navigation --> 
+    <header>
+        <span id="menu-btn" onclick="openMenu()">&#9776; Menu</span>
+        <h1 onclick="closeMenu()" class="title">La boutique de l'amitié ❤️</h1>
+    </header>
+
+    <!-- Menu Latéral -->
+    <div id="side-menu">
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="store/store.html">Produits</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Contenu principal -->
+    <div id="main-content" onclick="closeMenu()">
+        <section>
+
+            <h2>Nos Coups de ❤️ :</h2>
+            <br> <br>   
+            <div class="category" id="c-coeur">
+
+                <div class="product">
+                    <a href="gab-t-shirt.html"  target="_blank" id="a_coeur_1" class="a-coeur">
+                        <img src="/images/Gabriel-gros-yeux.png" alt="" class="product">
+                    </a>
+                </div class="product">
+
+                <div class="product">
+                    <a href="lilian2-t-shirt.html" id="a-coeur-2" class="a-coeur">
+                        <img src="/images/Lilian-souris.png" alt="" class="product">
+                    </a>
+                </div class="product">
+
+                <div class="product">
+                    <a href="ewen-t-shirt.html" id="a-coeur-3" class="a-coeur">
+                        <img src="/images/Ewen-détruit.png" alt="" class="product">
+                    </a>
+                </div class="product">
+
+                <div class="product">
+                    <a href="alexandre-t-shirt.html" id="a-coeur-4" class="a-coeur">
+                        <img src="/images/Alexandre-vicieux.png" alt="" class="product">
+                    </a>
+                </div class="product">
+
+                <div class="product">
+                    <a href="lilian-t-shirt.html" id="a-coeur-5" class="a-coeur">
+                        <img src="/images/Lilian-reese.png" alt="" class="product">
+                    </a>
+                </div class="product">
+
+            </div>
+            
+        </section>
+    </div>
+</body>
+<footer>
+
+</footer>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Produits</title>
+    <script src="/JS/script.js"></script>
+    <link rel="stylesheet" href="/CSS/lateral-menu.css">
+    <link rel="stylesheet" href="/CSS/store.css">
+</head>
+<body>
+    <!-- Barre de navigation --> 
+    <header>
+        <span id="menu-btn" onclick="openMenu()">&#9776; Menu</span>
+        <h1 onclick="closeMenu()" class="title">La boutique de l'amitié ❤️</h1>
+        <div onmouseover="slidingMenu()">
+            <a class="categories" href="cuisine">cuisine</a>
+            <a class="categories" href="cat1">cat1</a>
+            <a class="categories" href="cat2">cat2</a>
+            <a class="categories" href="cat3">cat3</a>
+        </div>
+    </header>
+    <div id="slide-menu-cuisine" onclick="closeMenu()">
+        <ul>
+            <li><a href="tasses">Tasses</a></li>
+            <li><a href="tasses">Tasses</a></li>
+            <li><a href="tasses">Tasses</a></li>
+            <li><a href="tasses">Tasses</a></li>
+        </ul>
+    </div>
+
+    <!-- Menu Latéral -->
+    <div id="side-menu">
+        <ul>
+            <li><a href="/HTML/index.html">Accueil</a></li>
+            <li><a href="#">Produits</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="main-content" onclick="closeMenu()">
+        <section>
+
+            <h2>Nos Coups de ❤️ :</h2>
+            <br> <br>   
+            <div class="category" id="cup">
+
+                <div class="product">
+                    <a href="cup"  target="_blank" id="cup1" class="cup">
+                        <img src="cup" alt="" class="product">
+                    </a>
+                </div class="product">
+
+                <div class="product">
+                    <a href="cup" id="cup2" class="cup">
+                        <img src="cup" alt="" class="product">
+                    </a>
+                </div class="product">
+
+                <div class="product">
+                    <a href="cup" id="cup3" class="cup">
+                        <img src="cup" alt="" class="product">
+                    </a>
+                </div class="product">
+
+                <div class="product">
+                    <a href="cup" id="cup4" class="cup">
+                        <img src="cup" alt="" class="product">
+                    </a>
+                </div class="product">
+
+                <div class="product">
+                    <a href="cup" id="cup5" class="cup">
+                        <img src="cup" alt="" class="product">
+                    </a>
+                </div class="product">
+
+            </div>
+            
+        </section>
+    </div>
+</body>
+</html>
