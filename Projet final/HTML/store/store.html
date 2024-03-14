@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Les Produits</title>
-    <script src="/JS/script.js"></script>
-    <link rel="stylesheet" href="/CSS/lateral-menu.css">
-    <link rel="stylesheet" href="/CSS/store.css">
+    <script src="/Projet%20final/JS/script.js"></script>
+    <link rel="stylesheet" href="/Projet%20final/CSS/lateral-menu.css">
+    <link rel="stylesheet" href="/Projet%20final/CSS/store.css">
 </head>
 <body>
     <!-- Barre de navigation --> 
     <header>
         <span id="menu-btn" onclick="openMenu()">&#9776; Menu</span>
         <h1 onclick="closeMenu()" class="title">La boutique de l'amitié ❤️</h1>
-        <div onmouseover="slidingMenu()">
-            <a class="categories" href="cuisine">cuisine</a>
-            <a class="categories" href="cat1">cat1</a>
-            <a class="categories" href="cat2">cat2</a>
-            <a class="categories" href="cat3">cat3</a>
-        </div>
     </header>
-    <div id="slide-menu-cuisine" onclick="closeMenu()">
-        <ul>
-            <li><a href="tasses">Tasses</a></li>
-            <li><a href="tasses">Tasses</a></li>
-            <li><a href="tasses">Tasses</a></li>
-            <li><a href="tasses">Tasses</a></li>
-        </ul>
-    </div>
+    <center>
+        <section id='categories'>
+            <center>
+                <div class="filter">
+                    <span class="material-symbols-outlined">
+                        filter_alt
+                    </span>
+                    <h2 class="categories1">Filtres : </h2>
+                </div>
+            </center>
+            <div>
+                <a class="categories" href="cuisine">Cuisine</a>
+                <a class="categories" href="meubles">Meubles</a>
+                <a class="categories" href="musique">Instruments de Musique</a>
+                <a class="categories" href="autres">Autres</a>
+            </div>
+        </section>
+    </center>
 
     <!-- Menu Latéral -->
     <div id="side-menu">
         <ul>
-            <li><a href="/HTML/index.html">Accueil</a></li>
+            <li><a href="/Projet%20final/HTML/index.html">Accueil</a></li>
             <li><a href="#">Produits</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
@@ -40,20 +45,19 @@
 
     <div id="main-content" onclick="closeMenu()">
         <section>
-
-            <h2>Nos Coups de ❤️ :</h2>
+            <h2>Nos Produits ❤️ :</h2>
             <br> <br>   
-            <div class="category" id="cup">
+            <div class="category">
 
                 <div class="product">
-                    <a href="cup"  target="_blank" id="cup1" class="cup">
-                        <img src="cup" alt="" class="product">
+                    <a href="/Projet%20final/images/autres/lilianni-munyra.png" target="_blank">
+                        <img src="/Projet%20final/images/autres/lilianni-munyra.png" alt="" class="product">
                     </a>
                 </div class="product">
 
                 <div class="product">
-                    <a href="cup" id="cup2" class="cup">
-                        <img src="cup" alt="" class="product">
+                    <a href="/Projet%20final/images/meubles/lilian1dressing.png"id="cup2" class="cup">
+                        <img src="/Projet%20final/images/meubles/lilian1dressing.png" alt="" class="product">
                     </a>
                 </div class="product">
 
@@ -79,5 +83,9 @@
             
         </section>
     </div>
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/bpHhnDQuFgU?si=tXjXQLiv0FfEKldg&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+    <!-- <button>
+        
+    </button> -->
 </body>
 </html>

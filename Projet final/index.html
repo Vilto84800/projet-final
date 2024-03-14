@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La boutique de l'amitié</title>
+</head>
+
+<body>
+
+    <!-- Barre de navigation --> 
+    <header>
+        <span id="menu-btn" onclick="openMenu()">&#9776; Menu</span>
+        <h1 onclick="closeMenu()" class="title">La boutique de l'amitié ❤️</h1>
+    </header>
+
+    <!-- Menu Latéral -->
+    <div id="side-menu">
+        <ul><li><a href="#">Accueil</a></li>
+            <li><a href="#">Produits</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <!-- Ajoute plus d'éléments de menu au besoin -->
+    </div>
+
+    <!-- Contenu principal -->
+    <div id="main-content" onclick="closeMenu()">
+        <section>
+            <h2>Nos Coups de ❤️ :</h2>
+            <div class="category">
+                
+                <a class="description" href="images/Gabriel-gros-yeux.png">
+                    <div class="product">
+                    
+                        <img src="images/Gabriel-gros-yeux.png" alt="" class="product" id="img-prod">
+                        <h3 class="description" class="product" id="d-1">T-Shirt a l'effigie du grand Gabriel-Pichery</h3>
+                    
+                    </div class="product">
+                </a>
+
+                <a class="description" class="product" href="images/Lilian-souris.png">
+                    <div class="product">
+                    
+                        <img src="images/Lilian-souris.png" alt="" class="product" id="img-prod">
+                    
+                    </div class="product">
+                </a>
+
+                <a class="description" href="images/Ewen-détruit.png">
+                    <div class="product">
+                    
+                        <img src="images/Ewen-détruit.png" alt="" class="product" id="img-prod">
+                    
+                    </div class="product">
+                </a>
+
+                <a class="description" href="images/Alexandre-vicieux.png">
+                    <div class="product">
+                    
+                        <img src="images/Alexandre-vicieux.png" alt="" class="product" id="img-prod">
+                    
+                    </div class="product">
+                </a>
+
+                <a class="description" href="images/Lilian-reese.png">
+                    <div class="product">
+                    
+                        <img src="images/Lilian-reese.png" alt="" class="product" id="img-prod">
+                    
+                    </div class="product">
+                </a>
+
+            </div>
+            
+
+            <!-- Ajoute ici la liste de tes produits avec des balises HTML appropriées -->
+        </section>
+    </div>
+
+</body>
+
+</html>

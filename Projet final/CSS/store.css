@@ -13,23 +13,39 @@ header {
     padding: 20px;
 }
 
-#menu-btn{
-    margin-top: 2px;
-}
-
-/*sliding menu*/
-#slide-menu-cuisine{
-    margin-left: 730px;
+section#categories{
+    scale: 1.2;
+    width: 700px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-bottom: 20px;
+    background-color: #333;
 }
 
 
 /*contenu principal*/
 #main-content{
     transition: 0.5s;
-    padding: 16px;
+    padding: 40px;
 }
 
 .categories{
+    margin-top: -10px;
+    transition: 0.3s;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.categories1{
+    margin-top: -10px;
     transition: 0.3s;
     padding: 5px;
     padding-left: 10px;
@@ -44,8 +60,42 @@ header {
 }
 
 .categories:hover{
-    transition: 0.3s;
+    transition: 0.6s;
     color: #333;
     background-color: #f4f4f4;
     border-radius: 10px;
+}
+
+h2.categories{
+    margin-bottom: 2px;
+}
+
+div.filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.filter h2{
+    padding-left: -10px;
+    margin-left: -10px;
+    margin-bottom: -3px;
+}
+
+div.filter span{
+    margin-top: -10px;
+    color: #fff;
+    border-color: black;
+}
+
+.product{
+    display: inline-block;
+    transition: 0.5s;
+    margin: 1px;
+    width: 300px;
+}
+
+.product:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
 }
